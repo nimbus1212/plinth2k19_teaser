@@ -34,7 +34,7 @@ a.animated-button {
 	position: relative;
 	border: 2px solid #FFFFFF;
 	transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
-0s;
+
 }
 a.animated-button:hover {
 	color: #212121 !important;
@@ -58,7 +58,7 @@ a.animated-button:before {
 	color: #212121 !important;
 	background: #FFFFFF;
 	transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
-0s;
+
 }
 
 a.animated-button:link, a.animated-button:visited {
