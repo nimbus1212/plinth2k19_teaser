@@ -56,8 +56,8 @@ function init() {
         if (screen.width>=1330) {
         
         text.position.z = 800;
-        text.position.x=80;
-        text.position.y=-100;
+        text.position.x=90;
+        text.position.y=-80;
         } 
         else if (screen.width<=1329 && screen.width>=950)  {
         
