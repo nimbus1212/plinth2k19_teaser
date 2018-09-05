@@ -6,14 +6,6 @@
     margin-top: 100%;
     margin-left: 200%;
   }
-  .glitch {
-      color: white;
-      font-size: 60px;
-      position: relative;
-      width: 400px;
-      margin: 50px auto;
-      margin-left: 170%;
-    }
     .arc_reactor {
       position: relative;
       top: 40%;
@@ -59,14 +51,6 @@
     margin-top: 100%;
     margin-left: 200%;
   }
-  .glitch {
-      color: white;
-      font-size: 60px;
-      position: relative;
-      width: 400px;
-      margin: 50px auto;
-      margin-left: 170%;
-    }
     .arc_reactor {
       position: relative;
       top: 40%;
@@ -114,14 +98,7 @@
      
     
     }
-      .glitch {
-          color: white;
-          font-size: 60px;
-          position: relative;
-          width: 400px;
-          margin: 50px auto;
-          margin-left: 150%;
-        }
+      
         .arc_reactor {
           position: relative;
           top: 40%;
@@ -173,14 +150,7 @@
      
     
     }
-      .glitch {
-          color: white;
-          font-size: 60px;
-          position: relative;
-          width: 400px;
-          margin: 50px auto;
-          margin-left: 150%;
-        }
+      
         .arc_reactor {
           position: relative;
           top: 40%;
@@ -205,11 +175,7 @@
       .container{
           width: 100% !important;
       }
-      .social-icons{
-        /* padding-top: 10px !important;
-        margin-bottom: -10% !important; */
-        
-      }
+      
       .social-icons li{
         margin-left: 5%;
         margin-right: 5%;
@@ -227,14 +193,6 @@
      
     
     }
-      .glitch {
-          color: white;
-          font-size: 60px;
-          position: relative;
-          width: 400px;
-          margin: 50px auto;
-          margin-left: 150%;
-        }
         .arc_reactor {
           position: relative;
           top: 40%;
@@ -271,14 +229,7 @@
       margin-left: -25%;
       font-size: 250%;
     }
-      .glitch {
-          color: white;
-          font-size: 45px;
-          position: relative;
-          width: 400px;
-          margin: 50px auto;
-          margin-left: -19%;
-        }
+      
         .arc_reactor {
           position: relative;
           top: 40%;
@@ -317,16 +268,7 @@
       margin-top: 95% !important;
       margin-left: -25%;
       font-size: 250%;
-    }
-      .glitch {
-          color: white;
-          font-size: 45px;
-          position: relative;
-          width: 400px;
-          margin: 50px auto;
-          margin-left: -19%;
-        }
-        
+    } 
         .arc_reactor {
           
           position: relative;
@@ -343,7 +285,7 @@
         .plinthtext{
           height: 600% !important; 
           width: 140% !important;
-          margin-left: -px;
+          margin-left: -100px;
           margin-top: 30% !important;
           float: center;
         }
