@@ -29,13 +29,15 @@ function init() {
     mesh = new THREE.Mesh( geometry, material );
     //scene.add( mesh );
     cubeSineDriver = 0;
-    if (screen.width>=1330) 
+    if (screen.width>=1920)
+        textGeo = new THREE.PlaneGeometry(350,250);
+    else if (screen.width>=1330 && screen.width<=1919) 
         textGeo = new THREE.PlaneGeometry(400,300);
-    if (screen.width<=1329 && screen.width>=950)
 
+    else if (screen.width<=1329 && screen.width>=950)
         textGeo = new THREE.PlaneGeometry(350,230);
 
-    if(screen.width<=949 && screen.width>=770)
+    else if(screen.width<=949 && screen.width>=770)
         textGeo = new THREE.PlaneGeometry(190,150);
         
      else if(screen.width<=769 && screen.width>=625)
@@ -54,8 +56,13 @@ function init() {
     textTexture = THREE.ImageUtils.loadTexture('comingsoon_plinth.png');
     textMaterial = new THREE.MeshLambertMaterial({color: 0x00ffff, opacity: 2, map: textTexture, transparent: true, blending: THREE.AdditiveBlending})
     text = new THREE.Mesh(textGeo,textMaterial);
-    
-        if (screen.width>=1330) {
+        if (screen.width>=1920)
+        {
+        text.position.z = 800;
+        text.position.x=20;
+        text.position.y=-90;
+        }
+        else if (screen.width>=1330 && screen.width<=1919) {
         
         text.position.z = 800;
         text.position.x=100;
