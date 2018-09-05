@@ -831,11 +831,6 @@ background: #cd201f !important;
 
 }
 
-/* entypo */
-[class*="entypo-"]:before {
-/* font-family: 'entypo', ; */
-}
-
 #none {
 text-align: center;
 position: absolute;
