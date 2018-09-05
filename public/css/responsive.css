@@ -50,8 +50,67 @@
   }
   
   }
+
+  @media (min-width: 1024px) and (max-width:1329px)
+  {
+    #ul{
+      top: 300px !important;
+    }
+    #name{
+      margin-left: -65%;
+      margin-top: 120%;
+     
+    
+    }
+      .glitch {
+          color: white;
+          font-size: 60px;
+          position: relative;
+          width: 400px;
+          margin: 50px auto;
+          margin-left: 150%;
+        }
+        .arc_reactor {
+          position: relative;
+          top: 40%;
+          margin-top: -220px;
+          margin-left: 35%;
+          margin-right: auto;
+          width: 250px;
+          height: 250px;
+          border-radius: 50%;
+          box-shadow: 0px 0px 50px 15px rgba(2, 255, 255, 0.3), inset 0px 0px 50px 15px rgba(2, 255, 255, 0.3);
+          
+        }
+        .plinthtext{
+          height: 500% !important; 
+          width: 250% !important;
+          margin-left: -55%;
+          margin-top: 25% !important;
+          float: center;
+        }
+        
+       
+      .container{
+          width: 100% !important;
+      }
+     
+      .social-icons li{
+        margin-left: 5%;
+        margin-right: 5%;
+      }
+
+      #button{
+        left: 0 !important;
+        bottom: 10px !important;
+        width: 100%;
+        font-size: 20px !important;
+      }
   
-  @media (min-width: 950px) and (max-width:1329px)
+  }
+  
+
+  @media (min-width: 950px) and (max-width:1023px)
   {
     #ul{
       top: 300px !important;
@@ -85,8 +144,8 @@
         .plinthtext{
           height: 500% !important; 
           width: 330% !important;
-          margin-left: -100%;
-          margin-top: 45% !important;
+          margin-left: -90%;
+          margin-top: 25% !important;
           float: center;
         }
         
@@ -94,7 +153,11 @@
       .container{
           width: 100% !important;
       }
-      
+      .social-icons{
+        /* padding-top: 10px !important;
+        margin-bottom: -10% !important; */
+        
+      }
       .social-icons li{
         margin-left: 5%;
         margin-right: 5%;
@@ -243,52 +306,6 @@
   
   }
   
-  
- 
-   /* @media (min-width: 375px) and (max-width:425px){
-  
-      .glitch {
-          color: white;
-          font-size: 45px;
-          position: relative;
-          width: 400px;
-          margin: 50px auto;
-          margin-left: 150%;
-        }
-        .arc_reactor {
-          position: relative;
-          top: 40%;
-          margin-top: -2010px;
-          margin-left: 80px;
-          margin-right: auto;
-          width: 250px;
-          height: 250px;
-          border-radius: 50%;
-          box-shadow: 0px 0px 50px 15px rgba(2, 255, 255, 0.3), inset 0px 0px 50px 15px rgba(2, 255, 255, 0.3);
-          
-        }
-        .plinthtext{
-          height: 600% !important; 
-          width: 270% !important;
-          margin-left: 120%;
-          margin-top: -5% !important;
-          float: center;
-        }
-        
-        .imgwrapper {
-        padding-left: 20%;
-          
-        }
-      .container{
-          width: 100% !important;
-      }
-  
-  } 
-  @media (max-width: 499px ){
-    #ul{
-      top: 500px !important;
-    }
-  } */
   @media screen and (max-width: 769px) {
     .social-icons{
       margin-top: 450px !important;

@@ -43,26 +43,28 @@ function init() {
 
     
     else if(screen.width<=624 && screen.width>=300)
-       textGeo = new THREE.PlaneGeometry(180,130);
+      { textGeo = new THREE.PlaneGeometry(180,130);
+        //  document.getElementById('icons').style.bottom="400 !important";
+        }
 
     
  
     
     THREE.ImageUtils.crossOrigin = ''; //Need this to pull in crossdomain images from AWS
     textTexture = THREE.ImageUtils.loadTexture('comingsoon_plinth.png');
-    textMaterial = new THREE.MeshLambertMaterial({color: 0x00ffff, opacity: 1, map: textTexture, transparent: true, blending: THREE.AdditiveBlending})
+    textMaterial = new THREE.MeshLambertMaterial({color: 0x00ffff, opacity: 2, map: textTexture, transparent: true, blending: THREE.AdditiveBlending})
     text = new THREE.Mesh(textGeo,textMaterial);
     
         if (screen.width>=1330) {
         
         text.position.z = 800;
-        text.position.x=90;
-        text.position.y=-80;
+        text.position.x=100;
+        text.position.y=-90;
         } 
         else if (screen.width<=1329 && screen.width>=950)  {
         
         text.position.z = 800;
-        text.position.x=-0;
+        text.position.x=10;
         text.position.y=-115;
         }
         else if(screen.width<=949 && screen.width>=779)

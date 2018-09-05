@@ -21,9 +21,10 @@ html, body {
   color: #f1f1f1;
   position: fixed;
     left: 0;
-    bottom: 75px ;
-    width: 100%;  
-  font-size: 30px !important;
+    bottom: 70px ;
+    width: 100%;
+    
+    font-size: 30px !important;
    
 }
 
@@ -829,6 +830,11 @@ color: #cd201f;
 #ul #li .Youtube:hover {
 background: #cd201f !important;
 
+}
+
+/* entypo */
+[class*="entypo-"]:before {
+/* font-family: 'entypo', ; */
 }
 
 #none {
