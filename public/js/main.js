@@ -43,7 +43,7 @@ function init() {
 
     
     else if(screen.width<=624 && screen.width>=300)
-       textGeo = new THREE.PlaneGeometry(200,150);
+       textGeo = new THREE.PlaneGeometry(180,130);
 
     
  
@@ -76,14 +76,14 @@ function init() {
         {
              text.position.z = 800;
              text.position.x=0;
-             text.position.y=-100;
+             text.position.y=-90;
              
 
         }
         else if(screen.width<=624 && screen.width>=300){
             text.position.z = 800;
              text.position.x=0;
-             text.position.y=-100;
+             text.position.y=-50;
 
         }
     

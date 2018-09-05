@@ -40,7 +40,7 @@ html, body {
   color: #448aaf;
   position: fixed;
     left: 0;
-    bottom: 0;
+    bottom: 18px;
     width: 100%;
 }
 
