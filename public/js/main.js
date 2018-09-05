@@ -54,7 +54,7 @@ function init() {
     
     THREE.ImageUtils.crossOrigin = ''; //Need this to pull in crossdomain images from AWS
     textTexture = THREE.ImageUtils.loadTexture('comingsoon_plinth.png');
-    textMaterial = new THREE.MeshLambertMaterial({color: 0x00ffff, opacity: 2, map: textTexture, transparent: true, blending: THREE.AdditiveBlending})
+    textMaterial = new THREE.MeshLambertMaterial({color: 0x00ffff, opacity: 2.5, map: textTexture, transparent: true, blending: THREE.AdditiveBlending})
     text = new THREE.Mesh(textGeo,textMaterial);
         if (screen.width>=1920)
         {
@@ -108,7 +108,7 @@ function init() {
     smokeParticles = [];
 
 
-    for (p = 0; p < 150; p++) {
+    for (p = 0; p < 120; p++) {
         var particle = new THREE.Mesh(smokeGeo,smokeMaterial);
         particle.position.set(Math.random()*500-250,Math.random()*500-250,Math.random()*1000-100);
         particle.rotation.z = Math.random() * 360;
