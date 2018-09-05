@@ -85,8 +85,8 @@
         .plinthtext{
           height: 500% !important; 
           width: 330% !important;
-          margin-left: -90%;
-          margin-top: 35% !important;
+          margin-left: -100%;
+          margin-top: 45% !important;
           float: center;
         }
         
@@ -94,11 +94,7 @@
       .container{
           width: 100% !important;
       }
-      .social-icons{
-        /* padding-top: 10px !important;
-        margin-bottom: -10% !important; */
-        
-      }
+      
       .social-icons li{
         margin-left: 5%;
         margin-right: 5%;

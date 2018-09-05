@@ -120,8 +120,10 @@ a.animated-button:link:hover:after, a.animated-button:visited:hover:after {
 }
 
 .social-icons ul {
-  margin: 0 auto;
-  list-style: none;
+	margin-top: 20px;
+	list-style: none;
+	padding-left: 40px;
+	
 }
 
 .social-icons ul li {
@@ -144,7 +146,7 @@ a.animated-button:link:hover:after, a.animated-button:visited:hover:after {
 
 .map {
   max-width: 1023px;
-  margin: 60px auto 0 auto;
+  margin: 40px auto 0 auto;
   width: 80%;
   height: 40vh;
 }
