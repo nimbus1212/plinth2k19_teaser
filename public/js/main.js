@@ -7,7 +7,7 @@ $(document).ready(function() {
 
       $("#ul").hide();
 
-    // Show the div in 5s
+    // Show the div in 3s
     $("#ul").delay(3000).fadeIn(500);
   });
   
