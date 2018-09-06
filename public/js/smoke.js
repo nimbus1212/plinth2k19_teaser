@@ -51,7 +51,7 @@ function init() {
 
     THREE.ImageUtils.crossOrigin = ''; //Need this to pull in crossdomain images from AWS
     textTexture = THREE.ImageUtils.loadTexture('comingsoon_plinth.png');
-    textMaterial = new THREE.MeshLambertMaterial({color: 0x00ffff, opacity: 3.5, map: textTexture, transparent: true, blending: THREE.AdditiveBlending})
+    textMaterial = new THREE.MeshLambertMaterial({color: 0x00ffff, opacity: 3, map: textTexture, transparent: true, blending: THREE.AdditiveBlending})
     text = new THREE.Mesh(textGeo,textMaterial);
         if (screen.width>=1920)
         {
