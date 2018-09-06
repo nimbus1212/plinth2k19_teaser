@@ -4,5 +4,10 @@ $(document).ready(function() {
       setTimeout(function() {
           $('body').addClass('loaded');
       }, 1000);
-   
+
+      $("#ul").hide();
+
+    // Show the div in 5s
+    $("#ul").delay(3000).fadeIn(500);
   });
+  
