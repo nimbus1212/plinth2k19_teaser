@@ -90,7 +90,7 @@
   @media (min-width: 1024px) and (max-width:1329px)
   {
     #ul{
-      top: 300px !important;
+      top: 400px !important;
     }
     #name{
       margin-left: -65%;
@@ -130,7 +130,7 @@
       }
 
       #button{
-        left: 0 !important;
+        left: -60px !important;
         bottom: 10px !important;
         width: 100%;
         font-size: 20px !important;
