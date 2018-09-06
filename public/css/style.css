@@ -170,6 +170,10 @@ html, body {
   text-transform: uppercase;
   padding: 5px;
 }
+#button a:hover{
+  color: #0ACFCF;
+}
+
 .social-icons {
   text-align: center;
   font-family: "Open Sans";
