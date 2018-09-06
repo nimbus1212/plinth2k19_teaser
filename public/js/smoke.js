@@ -66,30 +66,41 @@ function init() {
         text.position.y=-90;
         } 
         else if (screen.width<=1329 && screen.width>=950)  {
-        
-        text.position.z = 800;
-        text.position.x=10;
-        text.position.y=-115;
-        }
-        else if(screen.width<=949 && screen.width>=779)
-        {
+                text.position.z = 800;
+                text.position.x=10;
+                text.position.y=-115;
             
-        text.position.z = 800;
-        text.position.x=0;
-        text.position.y=-120;
         }
-        else if(screen.width<=769 && screen.width>=625)
-        {
-             text.position.z = 800;
-             text.position.x=0;
-             text.position.y=-90;
-             
+        else if(screen.width<=949 && screen.width>=779)     {
+                text.position.z = 800;
+                text.position.x=0;
+                text.position.y=-120;
+        }   
+        else if(screen.width<=769 && screen.width>=625)     {
+            if(screen.width > screen.height){
+                text.position.z = 800;
+                text.position.x=0;
+                text.position.y=-130;
+            }
+            else{
+                text.position.z = 800;
+                text.position.x=0;
+                text.position.y=-90;
+            }
 
         }
         else if(screen.width<=624 && screen.width>=300){
-            text.position.z = 800;
-             text.position.x=0;
-             text.position.y=-50;
+            if(screen.width > screen.height){
+                text.position.z = 800;
+                text.position.x=0;
+                text.position.y=-130;
+            }
+            else{
+                text.position.z = 800;
+                text.position.x=0;
+                text.position.y=-50;
+            }
+            
 
         }
     

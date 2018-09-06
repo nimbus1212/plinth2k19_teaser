@@ -182,6 +182,15 @@
       }
   
   }
+
+  @media (min-width: 950px) and (max-width:1023px) and (orientation: landscape){
+    #button{
+      display: none;
+    }
+    .social-icons ul{
+      display: none;
+  }
+
   @media (min-width: 770px) and (max-width:949px)
   {
     #ul{
@@ -219,6 +228,8 @@
       }
   
   }
+
+
   @media (min-width: 625px) and (max-width:769px){
     #ul{
       top: 250px !important;
