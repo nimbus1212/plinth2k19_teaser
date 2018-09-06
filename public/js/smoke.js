@@ -5,6 +5,7 @@ init();
 animate(); 
 
 
+
 function init() {
     stats = new Stats();
     stats.setMode(0);
@@ -103,8 +104,13 @@ function init() {
             
 
         }
+       
+            setTimeout(function() {
+                scene.add(text);
+            }, 3000);
+        
+        
     
-    scene.add(text);
 
     light = new THREE.DirectionalLight(0xffffff,0.5);
     light.position.set(-1,0,1);
