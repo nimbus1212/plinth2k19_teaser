@@ -2,64 +2,68 @@
 <html>
 
 <head>
- <meta charset="UTF-8">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>Contact Us | Plinth 2k19</title>
- <link rel="favicon icon" href="favicon.ico" />
- <link rel="stylesheet" href="css/archive.css" />
- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-125190547-1"></script>
-      <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'UA-125190547-1');
-      </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | Plinth 2k19</title>
+  <link rel="favicon icon" href="favicon.ico" />
+  <link rel="stylesheet" href="css/archive.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+    crossorigin="anonymous">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-125190547-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'UA-125190547-1');
+  </script>
 </head>
 
 <body>
 
- <h1>Contact Us</h1>
+  <h1>Contact Us</h1>
 
- <div class="details">
-  <i class="fa fa-envelope" aria-hidden="true"></i> Email : <a href="mailto:plinth.lnmiit@gmail.com" style="color:white">plinth.lnmiit@gmail.com</a>
- </div>
- <div class="details">
-  <i class="fas fa-phone fa-rotate-90" aria-hidden="true"></i> Phone : +91-7339875167
- </div>
+  <div class="details">
+    <i class="fa fa-envelope" aria-hidden="true"></i> Email : <a href="mailto:plinth.lnmiit@gmail.com" style="color:white">plinth.lnmiit@gmail.com</a>
+  </div>
+  <div class="details">
+    <i class="fas fa-phone fa-rotate-90" aria-hidden="true"></i> Phone : +91-7339875167
+  </div>
 
   <div class="map" id="map"></div>
 
- <div class="social-icons" id="icons">
-  <ul>
-    <li><a href="https://twitter.com/plinthlnmiit?lang=en" target="_blank"><i class="fab fa-twitter"></i></a></li>
-    <li><a href="https://www.facebook.com/Plinth.LNMIIT/" target="_blank"><i class="fab fa-facebook"></i></a></li>
-    <li><a href="https://www.instagram.com/plinth.lnmiit/" target="_blank"><i class="fab fa-instagram"></i></a></li>
-    <li><a href="https://www.youtube.com/user/PlinthLNMIITJaipur" target="_blank"><i class="fab fa-youtube"></i></a></li>
-  </ul>
- </div>
+  <div class="social-icons" id="icons">
+    <ul>
+      <li><a href="https://twitter.com/plinthlnmiit?lang=en" target="_blank"><i class="fab fa-twitter"></i></a></li>
+      <li><a href="https://www.facebook.com/Plinth.LNMIIT/" target="_blank"><i class="fab fa-facebook"></i></a></li>
+      <li><a href="https://www.instagram.com/plinth.lnmiit/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+      <li><a href="https://www.youtube.com/user/PlinthLNMIITJaipur" target="_blank"><i class="fab fa-youtube"></i></a></li>
+    </ul>
+  </div>
 
 
- <script>
-  function initMap() {
-   var uluru = {
-    lat: 26.936338,
-    lng: 75.923539
-   };
-   var map = new google.maps.Map(document.getElementById('map'), {
-    zoom: 15,
-    center: uluru
-   });
-   var marker = new google.maps.Marker({
-    position: uluru,
-    map: map
-   });
-  }
- </script>
+  <script>
+    function initMap() {
+      var uluru = {
+        lat: 26.936338,
+        lng: 75.923539
+      };
+      var map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 15,
+        center: uluru
+      });
+      var marker = new google.maps.Marker({
+        position: uluru,
+        map: map
+      });
+    }
+  </script>
 
- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCEH9KxT3Q_ss0aKvV4hLeWxajCoUgFvUs&callback=initMap">
- </script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCEH9KxT3Q_ss0aKvV4hLeWxajCoUgFvUs&callback=initMap">
+  </script>
 
 
 </body>

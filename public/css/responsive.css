@@ -1,323 +1,363 @@
-@media (min-width:1920px){
-  #ul{
+@media (min-width:1920px) {
+  #ul {
     top: 600px;
   }
-  #name{
+
+  #name {
     margin-top: 100%;
     margin-left: 200%;
   }
-    .arc_reactor {
-      position: relative;
-      top: 40%;
-      margin-top: -230px;
-      margin-left: auto; 
-      margin-right: auto;
-      width: 250px;
-      height: 250px;
-      border-radius: 50%;
-      box-shadow: 0px 0px 50px 15px rgba(2, 255, 255, 0.3), inset 0px 0px 50px 15px rgba(2, 255, 255, 0.3);
-      
-    }
-    .plinthtext{
-      height: 600% !important; 
-      width: 400% !important;
-      margin-left: -120%; 
-      margin-top: 20% !important;
-      float: center;
-    }
-    
-    .imgwrapper {
-    padding-left: 20%;
-      
-    }
-  .container{
-      width: 100% !important;
+
+  .arc_reactor {
+    position: relative;
+    top: 40%;
+    margin-top: -350px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 50px 15px rgba(2, 255, 255, 0.3), inset 0px 0px 50px 15px rgba(2, 255, 255, 0.3);
   }
-  #button{
+
+  .plinthtext {
+    height: 600% !important;
+    width: 400% !important;
+    margin-left: -120%;
+    margin-top: 40% !important;
+    float: center;
+  }
+
+  .imgwrapper {
+    padding-left: 20%;
+  }
+
+  .container {
+    width: 100% !important;
+  }
+
+  #button {
     left: 0 !important;
     bottom: 20px !important;
     width: 100%;
-    font-size: 20px !important;
+    font-size: 30px !important;
+    margin-left: 2% !important;
   }
-  
 }
+@media only screen and (width:1280px)
+{
+  #ul {
+    top: 600px;
+  }
 
+  #name {
+    margin-top: 100%;
+    margin-left: 200%;
+  }
 
-@media (min-width: 1330px )and (max-width:1919px){
-  #ul{
+  .arc_reactor {
+    position: relative;
+    top: 40%;
+    margin-top: -350px;
+    margin-left: 40% !important;
+    margin-right: auto;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 50px 15px rgba(2, 255, 255, 0.3), inset 0px 0px 50px 15px rgba(2, 255, 255, 0.3);
+  }
+
+  .plinthtext {
+    height: 600% !important;
+    width: 400% !important;
+    margin-left: -120%;
+    margin-top: 40% !important;
+    float: center;
+  }
+
+  .imgwrapper {
+    padding-left: 20%;
+  }
+
+  .container {
+    width: 100% !important;
+  }
+
+  #button {
+    left: 0 !important;
+    bottom: 20px !important;
+    width: 100%;
+    font-size: 30px !important;
+    margin-left: 2% !important;
+  }
+
+}
+@media (min-width: 1330px)and (max-width:1919px) {
+  #ul {
     top: 450px;
   }
-  #name{
+
+  #name {
     margin-top: 100%;
     margin-left: 200%;
   }
+
+  .arc_reactor {
+    position: relative;
+    top: 40%;
+    margin-top: -230px;
+    margin-left: auto; 
+    margin-right: auto;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 50px 15px rgba(2, 255, 255, 0.3), inset 0px 0px 50px 15px rgba(2, 255, 255, 0.3);
+    
+  }
+  .plinthtext{
+    height: 600% !important; 
+    width: 300% !important;
+     margin-left: -85%;  
+    margin-top: 27% !important;
+    float: center;
+  }
+  
+  .imgwrapper {
+  padding-left: 20%;
+    
+  }
+.container{
+    width: 100% !important;
+}
+
+  #button {
+    left: 0 !important;
+    bottom: 20px !important;
+    width: 100%;
+    font-size: 20px !important;
+    margin-left: 2% !important;
+  }
+}
+
+@media (min-width: 1024px) and (max-width:1329px) {
+  #ul {
+    top: 400px !important;
+  }
+
+  #name {
+    margin-left: -65%;
+    margin-top: 120%;
+  }
+
+  .arc_reactor {
+    position: relative;
+    top: 40%;
+    margin-top: -220px;
+    margin-left: 35%;
+    margin-right: auto;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 50px 15px rgba(2, 255, 255, 0.3), inset 0px 0px 50px 15px rgba(2, 255, 255, 0.3);
+  }
+
+  .plinthtext {
+    height: 500% !important;
+    width: 250% !important;
+    margin-left: -55%;
+    margin-top: 25% !important;
+    float: center;
+  }
+
+  .container {
+    width: 100% !important;
+  }
+
+  .social-icons li {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  #button {
+    left: -60px !important;
+    bottom: 10px !important;
+    width: 100%;
+    font-size: 20px !important;
+    margin-left: 7% !important;
+  }
+}
+
+@media (min-width: 950px) and (max-width:1023px) {
+  #button {
+    margin-bottom: 40px;
+  }
+
+  #ul {
+    top: 300px !important;
+  }
+
+  #name {
+    margin-left: -65%;
+    margin-top: 120%;
+  }
+
+  .arc_reactor {
+    position: relative;
+    top: 40%;
+    margin-top: -220px;
+    margin-left: 35%;
+    margin-right: auto;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 50px 15px rgba(2, 255, 255, 0.3), inset 0px 0px 50px 15px rgba(2, 255, 255, 0.3);
+  }
+
+  .plinthtext {
+    height: 500% !important;
+    width: 330% !important;
+    margin-left: -100%;
+    margin-top: 25% !important;
+    float: center;
+  }
+
+  .container {
+    width: 100% !important;
+  }
+
+  .social-icons li {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
+
+@media (min-width: 950px) and (max-width:1023px) and (orientation: landscape) {
+  #button {
+    display: none;
+  }
+
+  .social-icons ul {
+    display: none;
+  }
+
+  @media (min-width: 770px) and (max-width:949px) {
+    #ul {
+      top: 300px !important;
+    }
+
+    #name {
+      margin-left: -65%;
+      margin-top: 120%;
+    }
+
     .arc_reactor {
       position: relative;
       top: 40%;
-      margin-top: -230px;
-      margin-left: 200px;
+      margin-top: -220px;
+      margin-left: 35%;
       margin-right: auto;
       width: 250px;
       height: 250px;
       border-radius: 50%;
       box-shadow: 0px 0px 50px 15px rgba(2, 255, 255, 0.3), inset 0px 0px 50px 15px rgba(2, 255, 255, 0.3);
-      
     }
-    .plinthtext{
-      height: 600% !important; 
-      width: 400% !important;
-      margin-left: 120%;
-      margin-top: -25% !important;
+
+    .plinthtext {
+      height: 500% !important;
+      width: 330% !important;
+      margin-left: -90%;
+      margin-top: 10% !important;
       float: center;
     }
-    
-    .imgwrapper {
-    padding-left: 20%;
-      
-    }
-  .container{
+
+    .container {
       width: 100% !important;
+    }
   }
-  #button{
-    left: 0 !important;
-    bottom: 20px !important;
-    width: 100%;
-    font-size: 20px !important;
-  }
-  
+}
+
+@media (min-width: 625px) and (max-width:769px) {
+  #ul {
+    top: 250px !important;
   }
 
-  @media (min-width: 1024px) and (max-width:1329px)
-  {
-    #ul{
-      top: 400px !important;
-    }
-    #name{
-      margin-left: -65%;
-      margin-top: 120%;
-     
-    
-    }
-      
-        .arc_reactor {
-          position: relative;
-          top: 40%;
-          margin-top: -220px;
-          margin-left: 35%;
-          margin-right: auto;
-          width: 250px;
-          height: 250px;
-          border-radius: 50%;
-          box-shadow: 0px 0px 50px 15px rgba(2, 255, 255, 0.3), inset 0px 0px 50px 15px rgba(2, 255, 255, 0.3);
-          
-        }
-        .plinthtext{
-          height: 500% !important; 
-          width: 250% !important;
-          margin-left: -55%;
-          margin-top: 25% !important;
-          float: center;
-        }
-        
-       
-      .container{
-          width: 100% !important;
-      }
-     
-      .social-icons li{
-        margin-left: 5%;
-        margin-right: 5%;
-      }
-
-      #button{
-        left: -60px !important;
-        bottom: 10px !important;
-        width: 100%;
-        font-size: 20px !important;
-      }
-  
-  }
-  
-
-  @media (min-width: 950px) and (max-width:1023px)
-  {
-    #button{
-      margin-bottom: 40px;
-    }
-    #ul{
-      top: 300px !important;
-    }
-    #name{
-      margin-left: -65%;
-      margin-top: 120%;
-     
-    
-    }
-      
-        .arc_reactor {
-          position: relative;
-          top: 40%;
-          margin-top: -220px;
-          margin-left: 35%;
-          margin-right: auto;
-          width: 250px;
-          height: 250px;
-          border-radius: 50%;
-          box-shadow: 0px 0px 50px 15px rgba(2, 255, 255, 0.3), inset 0px 0px 50px 15px rgba(2, 255, 255, 0.3);
-          
-        }
-        .plinthtext{
-          height: 500% !important; 
-          width: 330% !important;
-          margin-left: -100%;
-          margin-top: 25% !important;
-          float: center;
-        }
-        
-       
-      .container{
-          width: 100% !important;
-      }
-      
-      .social-icons li{
-        margin-left: 5%;
-        margin-right: 5%;
-      }
-  
+  #name {
+    margin-top: 95% !important;
+    margin-left: -25%;
+    font-size: 250%;
   }
 
-  @media (min-width: 950px) and (max-width:1023px) and (orientation: landscape){
-    #button{
-      display: none;
-    }
-    .social-icons ul{
-      display: none;
+  .arc_reactor {
+    position: relative;
+    top: 40%;
+    margin-top: -230px;
+    margin-left: 30% !important;
+    margin-right: auto;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 50px 15px rgba(2, 255, 255, 0.3), inset 0px 0px 50px 15px rgba(2, 255, 255, 0.3);
   }
 
-  @media (min-width: 770px) and (max-width:949px)
-  {
-    #ul{
-      top: 300px !important;
-    }
-    #name{
-      margin-left: -65%;
-      margin-top: 120%;
-     
-    
-    }
-        .arc_reactor {
-          position: relative;
-          top: 40%;
-          margin-top: -220px;
-          margin-left: 35%;
-          margin-right: auto;
-          width: 250px;
-          height: 250px;
-          border-radius: 50%;
-          box-shadow: 0px 0px 50px 15px rgba(2, 255, 255, 0.3), inset 0px 0px 50px 15px rgba(2, 255, 255, 0.3);
-          
-        }
-        .plinthtext{
-          height: 500% !important; 
-          width: 330% !important;
-          margin-left: -90%;
-          margin-top: 10% !important;
-          float: center;
-        }
-        
-       
-      .container{
-          width: 100% !important;
-      }
-  
-  }
+  .plinthtext {
+    height: 600% !important;
+    width: 260% !important;
+    margin-left: -150px;
+    margin-top: 50% !important;
+    float: center;
   }
 
-  @media (min-width: 625px) and (max-width:769px){
-    #ul{
-      top: 250px !important;
-    }
-    
-    #name{
-      margin-top: 95% !important;
-      margin-left: -25%;
-      font-size: 250%;
-    }
-      
-        .arc_reactor {
-          position: relative;
-          top: 40%;
-          margin-top: -230px;
-          margin-left: 30% !important;
-          margin-right: auto;
-          width: 250px;
-          height: 250px;
-          border-radius: 50%;
-          box-shadow: 0px 0px 50px 15px rgba(2, 255, 255, 0.3), inset 0px 0px 50px 15px rgba(2, 255, 255, 0.3);
-          
-        }
-        .plinthtext{
-          height: 600% !important; 
-          width: 260% !important;
-          margin-left: -150px;
-          margin-top: 50% !important;
-          float: center;
-        }
-        
-        .imgwrapper {
-        padding-left: 20%;
-          
-        }
-      .container{
-          width: 100% !important;
-      }
-  
+  .imgwrapper {
+    padding-left: 20%;
   }
-  @media (min-width: 300px) and (max-width:624px){
-    #ul{
-      top: 250px !important;
-    }
-    
-    #name{
-      margin-top: 95% !important;
-      margin-left: -25%;
-      font-size: 250%;
-    } 
-        .arc_reactor {
-          
-          position: relative;
-          top: 40%;
-          margin-top: -230px;
-          margin-left: 15% !important;
-          margin-right: auto;
-          width: 250px;
-          height: 250px;
-          border-radius: 50%;
-          box-shadow: 0px 0px 50px 15px rgba(2, 255, 255, 0.3), inset 0px 0px 50px 15px rgba(2, 255, 255, 0.3);
-          
-        }
-        .plinthtext{
-          height: 600% !important; 
-          width: 140% !important;
-          margin-left: -100px;
-          margin-top: 30% !important;
-          float: center;
-        }
-        
-        .imgwrapper {
-        padding-left: 20%;
-          
-        }
-      .container{
-          width: 100% !important;
-      }
-  
+
+  .container {
+    width: 100% !important;
   }
-  
-  @media screen and (max-width: 769px) {
-    .social-icons{
-      margin-top: 450px !important;
-     
-      
-    }
+}
+
+@media (min-width: 300px) and (max-width:624px) {
+  #ul {
+    top: 250px !important;
+  }
+
+  #name {
+    margin-top: 95% !important;
+    margin-left: -25%;
+    font-size: 250%;
+  }
+
+  .arc_reactor {
+    position: relative;
+    top: 40%;
+    margin-top: -230px;
+    margin-left: 15% !important;
+    margin-right: auto;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 50px 15px rgba(2, 255, 255, 0.3), inset 0px 0px 50px 15px rgba(2, 255, 255, 0.3);
+  }
+
+  .plinthtext {
+    height: 600% !important;
+    width: 140% !important;
+    margin-left: -100px;
+    margin-top: 30% !important;
+    float: center;
+  }
+
+  .imgwrapper {
+    padding-left: 20%;
+  }
+
+  .container {
+    width: 100% !important;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .social-icons {
+    margin-top: 450px !important;
+  }
 }

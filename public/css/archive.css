@@ -1,41 +1,42 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700');
 @import url('https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css');
 
-
 * {
-  margin: 0;
-  padding: 0;
-  outline: 0;
+	margin: 0;
+	padding: 0;
+	outline: 0;
 }
 
-html, body {
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-}
+html,
 body {
-  font-family: 'Open Sans';
-  background: #212121;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+body {
+	font-family: 'Open Sans';
+	background: #212121;
 }
 
 h1 {
-  margin-top: 60px;
-  color: #FFFFFF;
-  text-transform: uppercase;
-  text-align: center;
-  font-size: 300%;
-  font-weight: 300;
-  letter-spacing: 1px;
-  word-spacing: 4px;
+	margin-top: 60px;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 300%;
+	font-weight: 300;
+	letter-spacing: 1px;
+	word-spacing: 4px;
 }
 
 .links {
-  margin-top: 100px;
+	margin-top: 100px;
 }
 
 .link {
-  margin: 0 auto;
-  width: 300px;
+	margin: 0 auto;
+	width: 300px;
 }
 
 a.animated-button {
@@ -45,18 +46,20 @@ a.animated-button {
 	position: relative;
 	border: 2px solid #FFFFFF;
 	transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
-
 }
+
 a.animated-button:hover {
 	color: #212121 !important;
 	background-color: transparent;
 	text-shadow: nfour;
 }
+
 a.animated-button:hover:before {
 	right: 0%;
 	left: auto;
 	width: 100%;
 }
+
 a.animated-button:before {
 	display: block;
 	position: absolute;
@@ -69,10 +72,10 @@ a.animated-button:before {
 	color: #212121 !important;
 	background: #FFFFFF;
 	transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
-
 }
 
-a.animated-button:link, a.animated-button:visited {
+a.animated-button:link,
+a.animated-button:visited {
 	position: relative;
 	display: block;
 	margin: 30px auto 0;
@@ -84,13 +87,15 @@ a.animated-button:link, a.animated-button:visited {
 	-moz-transition: all 1s ease;
 	-o-transition: all 1s ease;
 	transition: all 1s ease;
-  font-size:16px;
-  font-weight: bold;
-  overflow: hidden;
-  letter-spacing: .08em;
-  text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+	font-size: 16px;
+	font-weight: bold;
+	overflow: hidden;
+	letter-spacing: .08em;
+	text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
 }
-a.animated-button:link:after, a.animated-button:visited:after {
+
+a.animated-button:link:after,
+a.animated-button:visited:after {
 	content: "";
 	position: absolute;
 	height: 0%;
@@ -103,50 +108,53 @@ a.animated-button:link:after, a.animated-button:visited:after {
 	-o-transition: all 0.75s ease 0s;
 	transition: all 0.75s ease 0s;
 }
-a.animated-button:link:hover, a.animated-button:visited:hover {
+
+a.animated-button:link:hover,
+a.animated-button:visited:hover {
 	color: #FFFFFF;
 }
-a.animated-button:link:hover:after, a.animated-button:visited:hover:after {
+
+a.animated-button:link:hover:after,
+a.animated-button:visited:hover:after {
 	height: 450%;
 }
 
 .social-icons {
-  width: 99%;
-  position: absolute;
-  bottom: 10px;
-  text-align: center;
-  display: inline-block;
-  text-decoration: none;
+	width: 99%;
+	position: absolute;
+	bottom: 10px;
+	text-align: center;
+	display: inline-block;
+	text-decoration: none;
 }
 
 .social-icons ul {
 	margin-top: 20px;
 	list-style: none;
 	padding-left: 40px;
-	
 }
 
 .social-icons ul li {
-  display: inline-block;
-  margin-right: 50px;
+	display: inline-block;
+	margin-right: 50px;
 }
 
-.social-icons ul li a{
-  font-size: 200%;
-  text-decoration: none;
-  color: #FFFFFF;
+.social-icons ul li a {
+	font-size: 200%;
+	text-decoration: none;
+	color: #FFFFFF;
 }
 
 .details {
-  text-align: center;
-  display: block;
-  color: #FFFFFF;
-  margin-top: 20px;
+	text-align: center;
+	display: block;
+	color: #FFFFFF;
+	margin-top: 20px;
 }
 
 .map {
-  max-width: 1023px;
-  margin: 40px auto 0 auto;
-  width: 80%;
-  height: 40vh;
+	max-width: 1023px;
+	margin: 40px auto 0 auto;
+	width: 80%;
+	height: 40vh;
 }

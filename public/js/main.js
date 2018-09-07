@@ -1,13 +1,12 @@
-$(document).ready(function() {
- 
-    // Fakes the loading setting a timeout
-      setTimeout(function() {
-          $('body').addClass('loaded');
-      }, 600);
+$(document).ready(function () {
 
-      $("#ul").hide();
+  // Fakes the loading setting a timeout
+  setTimeout(function () {
+    $('body').addClass('loaded');
+  }, 600);
 
-    // Show the div in 3s
-    $("#ul").delay(3000).fadeIn(500);
-  });
-  
+  $("#ul").hide();
+
+  // Show the div in 3s
+  $("#ul").delay(3000).fadeIn(500);
+});
