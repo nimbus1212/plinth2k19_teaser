@@ -65,8 +65,8 @@ function init() {
     text = new THREE.Mesh(textGeo, textMaterial);
     if (screen.width >= 1920) {
         text.position.z = 800;
-        text.position.x = 16;
-        text.position.y = -60;
+        text.position.x = 15;
+        text.position.y = -70;
     } else if (screen.width >= 1330 && screen.width <= 1919) {
         text.position.z = 800;
         text.position.x=10;
