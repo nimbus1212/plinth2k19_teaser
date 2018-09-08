@@ -128,7 +128,7 @@ function init() {
     smokeParticles = [];
 
 
-    for (p = 0; p < 120; p++) {
+    for (p = 0; p < 130; p++) {
         var particle = new THREE.Mesh(smokeGeo, smokeMaterial);
         particle.position.set(Math.random() * 500 - 250, Math.random() * 500 - 250, Math.random() * 1000 - 100);
         particle.rotation.z = Math.random() * 360;
