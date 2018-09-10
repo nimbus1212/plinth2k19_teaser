@@ -1,3 +1,4 @@
+$(window).on('resize',function(){location.reload();});
 
 $(document).ready(function () {
 
