@@ -1,3 +1,5 @@
+$(window).on('resize',function(){location.reload();});
+
 $(document).ready(function () {
 
   // Fakes the loading setting a timeout
