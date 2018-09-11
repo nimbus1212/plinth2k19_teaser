@@ -239,13 +239,25 @@ body {
 }
 
 @media (min-width: 950px) and (max-width:1023px) and (orientation: landscape) {
+ 
+  .plinthtext {
+    height: 330% !important;
+    width: 180% !important;
+    margin-left: -30%;
+    margin-top: 15% !important;
+    float: center;
+  }
   #button {
-    display: none;
+    margin-bottom: -15px;
+    font-size: 20px !important;
   }
-
+  .social-icons{
+    bottom: 5px;
+  }
   .social-icons ul {
-    display: none;
-  }
+    font-size: 5.5vh;
+    
+  }  
 
   @media (min-width: 770px) and (max-width:949px) {
     #ul {
