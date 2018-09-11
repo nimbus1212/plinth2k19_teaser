@@ -248,16 +248,20 @@ body {
     float: center;
   }
   #button {
-    margin-bottom: -15px;
+    margin-bottom: -25px;
     font-size: 20px !important;
   }
   .social-icons{
     bottom: 5px;
   }
   .social-icons ul {
-    font-size: 5.5vh;
-    
+    font-size: 4.5vh;
+    padding-left: 10px;
   }  
+  .social-icons ul li{
+    margin-left: 2%;
+    margin-right: 3%
+  }
 
   @media (min-width: 770px) and (max-width:949px) {
     #ul {
