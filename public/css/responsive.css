@@ -241,14 +241,14 @@ body {
 @media (min-width: 950px) and (max-width:1023px) and (orientation: landscape) {
  
   .plinthtext {
-    height: 330% !important;
-    width: 180% !important;
-    margin-left: -30%;
+    height: 300% !important;
+    width: 150% !important;
+    margin-left: -15%;
     margin-top: 15% !important;
     float: center;
   }
   #button {
-    margin-bottom: -25px;
+    margin-bottom: -30px;
     font-size: 20px !important;
   }
   .social-icons{
