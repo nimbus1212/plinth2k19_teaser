@@ -166,9 +166,10 @@ a.animated-button:visited:hover:after {
 		padding-left: 38px;
 	}
 	h1{
-		padding-top: 10px;
+		padding-top: 0px;
 	}
 	}
+
 	@media only screen and (max-width : 320px) {
 		.map{
 			margin: 20px auto 0 auto;
@@ -180,4 +181,9 @@ a.animated-button:visited:hover:after {
 			padding-top: 40px;
 			
 		}
+		}
+		@media only screen and (width:360px){
+			.social-icons ul{
+				padding-left: 23px;
+			}
 		}
