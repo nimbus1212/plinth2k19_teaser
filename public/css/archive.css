@@ -131,7 +131,7 @@ a.animated-button:visited:hover:after {
 .social-icons ul {
 	margin-top: 20px;
 	list-style: none;
-	padding-left: 40px;
+	padding-left: 50px;
 }
 
 .social-icons ul li {
@@ -184,6 +184,9 @@ a.animated-button:visited:hover:after {
 		}
 		@media only screen and (width:360px){
 			.social-icons ul{
-				padding-left: 23px;
+				padding-left: 40px;
+			}
+			.social-icons ul li{
+				margin-right:40px;
 			}
 		}
