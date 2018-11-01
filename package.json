@@ -2,16 +2,19 @@
   "name": "plinth-2k19-teaser",
   "version": "1.0.0",
   "description": "Teaser for Plinth, The Techno-Management Literary Fest, The LNM Institute of Information Technology, Jaipur.",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "nodemon ./bin/www"
   },
   "author": "Swarnim",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.3",
     "cookie-parser": "^1.4.3",
-    "express": "^4.16.3",
+    "dotenv": "^6.1.0",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "nodemon": "^1.18.5",
     "serve-favicon": "^2.5.0"
   }
 }
