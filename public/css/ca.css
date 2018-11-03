@@ -821,3 +821,9 @@ a:hover span:after {
      position: fixed;
      align-content: center
  }
+
+ h3 {
+     color: #1c1c1a;
+     text-align: center;
+     padding-top: 30px;
+ }
